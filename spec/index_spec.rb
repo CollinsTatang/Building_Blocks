@@ -105,7 +105,7 @@ RSpec.describe Enumerable do
 
   describe '#my_count' do
     it 'Returns the amount of values in the array' do
-      expect([1, 2, 3, 4].my_count).to eql([1, 2, 3, 4].count)
+      expect([1, 2, 3, 4].my_count).to eql([1, 2, 3, 4].size)
     end
 
     it 'Returns the amount of values that match the argument' do
